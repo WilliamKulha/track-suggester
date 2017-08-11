@@ -11,16 +11,16 @@ $(document).ready(function() {
     var indexOfMax = scores.indexOf(Math.max.apply(null, scores));
     $(".form-container").hide();
     if (indexOfMax === 0) {
-      $(".c-sharp").show();
+      $(".c-sharp").fadeIn(2500);
       $(".jumbotron").hide();
     } else if (indexOfMax === 1) {
-      $(".java").show();
+      $(".java").fadeIn(2500);
       $(".jumbotron").hide();
     } else if (indexOfMax === 2) {
-      $(".php").show();
+      $(".php").fadeIn(2500);
       $(".jumbotron").hide();
     } else {
-      $(".ruby").show();
+      $(".ruby").fadeIn(2500);
       $(".jumbotron").hide();
     }
 
