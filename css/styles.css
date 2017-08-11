@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Shade|Roboto');
+
+img {
+  text-align: center;
+  max-width: 422px;
+  margin-bottom: 35px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family: 'Bungee Shade', cursive;
+}
+
+h2 {
+  font-family: 'Black Ops One', cursive;
+}
+label {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #748BA7;
+}
+
+button {
+  padding: 14px 40px;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.c-sharp, .java, .php, .ruby {
+  display: none;
+  padding: 25px;
+  margin-top: 50px;
+  background-color: rgb(76, 104, 139);
+  border-radius: 6px;
+}
+
+.form-container {
+  padding: 20px;
+  max-width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(76, 104, 139, 0.75);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.result-container {
+  width:800px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #143054;
+  text-align: center;
+  margin-bottom: 150px;
+  padding: 25px;
+  color: white;
+}
+.jumbotron p {
+  font-family: 'Black Ops One', cursive;
+}
+
+.header {
+  max-width: 800px;
+}
+
+.form-group {
+  margin-bottom: 50px;
+}
