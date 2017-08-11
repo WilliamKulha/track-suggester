@@ -14,7 +14,7 @@ _{This is a quiz style survey page where the user answers several questions in o
 * _Open folder named track-suggestor_
 * _Open index.html in with web browser of choice_
 * _OR_
-* _Simply visit https://kristenmarie.github.io/track-suggestor/ _
+* _Simply visit https://kristenmarie.github.io/track-suggester/ _
 
 ## Known Bugs
 
