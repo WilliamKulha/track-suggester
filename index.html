@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>Track Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>What Programming Language Should I Learn?</h1>
+        <p>A quiz for aspiring developers looking to discover which track is the right one for them!</p>
+      </div>
+      <div class="form-container">
+        <form id="survey">
+          <div class="form-group">
+            <label for="question1">Which is most interesting:</label>
+            <select class="form-control" id="question1">
+              <option value="0">Internal software!</option>
+              <option value="1">Android interfaces!</option>
+              <option value="2">Content Management!</option>
+              <option value="3">Interacitve web applications!</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question2">Pick one: </label>
+            <select class="form-control" id="question2">
+              <option value="3">Hulu</option>
+              <option value="2">Wordpress</option>
+              <option value="1">Eclipse</option>
+              <option value="0">Paint.NET</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question3">Which of the following is most important to you in a language?</label>
+            <select class="form-control" id="question3">
+              <option value="2">Numerous employment opportunity</option>
+              <option value="0">In-demand language</option>
+              <option value="1">A popular language</option>
+              <option value="3">Making content iteractive and dynamic</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question4">Where do you want to work?</label>
+            <select class="form-control" id="question4">
+              <option value="1">An enterprise-level company</option>
+              <option value="0">Large company</option>
+              <option value="3">Startups and smaller companies</option>
+              <option value="2">Fast-paced angency</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question4">Which trait do you identify with most?</label>
+            <select class="form-control" id="question5">
+              <option value="2">Easy-going</option>
+              <option value="3">Smart</option>
+              <option value="1">Critical</option>
+              <option value="0">Techie</option>
+            </select>
+          </div>
+          <button type="submit" class ="btn">Go!</button>
+        </form>
+      </div>
+      <div class="result-container">
+        <div class="c-sharp">
+          <h2>Looks like C# is right for you!</h2>
+          <img src="img/csharp.jpg" alt="C Sharp logo">
+        </div>
+        <div class="java">
+          <h2>Looks like Java is right for you!</h2>
+          <img src="img/java.jpg" alt="Java logo">
+        </div>
+        <div class="php">
+          <h2>Looks like PHP is right for you</h2>
+          <img src="img/php.jpg" alt="PHP logo">
+        </div>
+        <div class="ruby">
+          <h2>Looks like Ruby is right for you!</h2>
+          <img src="img/ruby.jpg" alt="Ruby logo">
+        </div>
+    </div>
+  </body>
+</html>
