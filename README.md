@@ -14,7 +14,7 @@ _{This is a quiz style survey page where the user answers several questions in o
 * _Open folder named track-suggestor_
 * _Open index.html in with web browser of choice_
 * _OR_
-* _Simply visit https://kristenmarie.github.io/track-suggester/ _
+* _Simply visit https://kristenmarie.github.io/track-suggester/_
 
 ## Known Bugs
 
@@ -22,7 +22,7 @@ _There are no known bugs at this time._
 
 ## Support and contact details
 
-_Feel free to email me: kristen.m.kulha@gmail.com _
+_Feel free to email me: kristen.m.kulha@gmail.com_
 
 ## Technologies Used
 
@@ -32,4 +32,4 @@ _HTML CSS Bootstrap JavaScript jQuery_
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2017 **_{Kristen Marie Kulha}_**
+Copyright (c) 2017 **_Kristen Marie Kulha_**
